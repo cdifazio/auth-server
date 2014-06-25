@@ -40,6 +40,7 @@ $(document).ready(function() {
 				</div>
 				<div>
 					<input type="submit" class="btn" value="Login" name="submit">
+                    <span class="help-block"><a href="https://service.smartplatforms.org" target="_blank">Click here</a> to register a new account or service an existing account.</span>
 				</div>
 			</form>
 		</div>
