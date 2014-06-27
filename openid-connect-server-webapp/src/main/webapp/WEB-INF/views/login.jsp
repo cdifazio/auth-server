@@ -26,7 +26,6 @@ $(document).ready(function() {
       <div class="span4 offset1 well">
          <div class="input-prepend"><span class="add-on"><i class="icon-user"></i></span><input type="text" placeholder="Username" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" value="" id="j_username" name="j_username" class="span11"></div>
          <div class="input-prepend"><span class="add-on"><i class="icon-lock"></i></span><input type="password" placeholder="Password" autocorrect="off" autocapitalize="off" autocomplete="off" spellcheck="false" id="j_password" name="j_password" class="span11"></div>
-         <div class="form-actions"><input type="submit" class="btn" value="Login" name="submit"></div>
          <div class="form-actions">
          <input type="submit" class="btn" value="Login" name="submit">
          <span class="help-block"><a href="https://service.smartplatforms.org" target="_blank">Click here</a> to register a new account or service an existing account.</span></div>
