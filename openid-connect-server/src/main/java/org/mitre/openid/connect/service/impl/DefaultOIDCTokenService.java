@@ -122,6 +122,7 @@ public class DefaultOIDCTokenService implements OIDCTokenService {
 
 		idClaims.setIssuer(configBean.getIssuer());
 		idClaims.setSubject(sub);
+        idClaims.setClaim("profile", "Practitioner/1234");
 		idClaims.setAudience(Lists.newArrayList(client.getClientId()));
 
 		String nonce = (String)request.getExtensions().get("nonce");
